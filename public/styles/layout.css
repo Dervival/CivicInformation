@@ -1,0 +1,551 @@
+@media (min-width:400px) {
+  /* body{
+   background-image: url(flag.jpg);
+   background-repeat: repeat; 
+  } */
+
+/* nav ul li{
+  align-content: space-around;
+  margin: 3em;
+} */
+
+header h1{
+font-size: 4.3em;
+font-weight: bold;
+padding-top: .75em;
+width: 80%;
+margin: auto;
+font-family: 'Fjalla One', sans-serif;
+}
+
+.page-header{
+  display:flex; 
+  align-content: center;
+  justify-content: center;
+  height: 4em;
+  font-weight: bold;
+}
+
+.page-header h2{
+  font-size:25px;
+}
+
+
+#intro p{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.deck{
+  margin-top: 0em;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.deck form{
+  width: 100%;
+  margin: auto;
+  border: 2px solid #f3f3f3;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.deck form fieldset{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.deck form p{
+  font-size: 30px;
+}
+
+#national-rep .innerdeck {
+  display: flex;
+  flex-direction: column;     
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#state-rep .statedeck{
+  display: flex;
+  flex-direction: column;     
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+#voting-history.deckhist{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#voting-history.deckhist *{
+  margin: .7em;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+#voting-history.deckhist #histheader{
+  margin-top: 2em;
+  padding-top: .5em;
+  height: 1.5em;
+  width: 100%;
+  font-size: 24px;
+  background-color: #c9eced;
+  text-align:center;
+  margin-bottom: 2em;
+}
+
+
+
+#repdeck{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#repcard *{
+  font-size: 24px;
+  margin-top: .8em;
+  color: #aaaaaa;
+  padding: 3px 15px 3px 15px;
+}
+
+#funding-chart{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+}
+
+#funding{
+  margin-top: 1em;
+  height: 2em;
+  font-size: 24px;
+  background-color: #c9eced;
+
+}
+
+
+.card{
+  display:flex;
+  flex-direction: column;     
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+}
+
+.card img{
+  width:15em; 
+  margin: 1em;
+}
+
+.card h3{
+  font-size: 24px;
+}
+
+.card1{
+  width: 100%;
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+form{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+legend{
+  text-align: center;
+  margin: 2em;
+}
+
+
+#address {
+text-align: center;
+width: 80%;
+margin: auto;
+}
+
+
+input{
+  font-size: 16px;
+}
+
+
+footer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: flex-end;
+ }
+}
+
+
+
+
+
+
+@media (min-width:800px){
+  
+  /* nav ul li{
+    align-content: space-around;
+    margin: 3em;
+  } */
+
+
+header h1{
+  font-size: 5em;
+  font-weight: bolder;
+  padding-top: .5em;
+  width: 80%;
+  margin: auto;
+  font-family: 'Fjalla One', sans-serif;
+}
+  
+  .page-header{
+    display:flex; 
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .page-header h2{
+    font-size: 35px;
+    padding-top: .3em;
+  }
+  
+  #intro p{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .deck{
+    margin-top: 0em;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+  
+  .deck form{
+    width: 80%;
+    margin: auto;
+    border: 2px solid #f3f3f3;
+    color: red;
+     display: flex; 
+    flex-direction: column;
+  }
+
+  .deck form fieldset{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+
+#voting-history.deck{
+  display: flex;
+  justify-content: flex-start;
+}
+
+#voting-history.deckhist #histheader{
+  margin-top: 2em;
+  padding-top: .5em;
+  height: 1.5em;
+  width: 100%;
+  font-size: 24px;
+  background-color: #c9eced;
+  text-align:center;
+  margin-bottom: 2em;
+}  
+  #national-rep .innerdeck {
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f3f3f3;
+    width: 100%;
+  }
+  
+  #state-rep .statedeck{
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f3f3f3;
+    width: 100%;
+  }
+  
+  #repdeck{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #repcard{
+    display:flex;
+    flex-direction: column;
+    font-size: 30px;
+  }
+
+  #repcard *{
+    margin-top: 1em;
+    padding: 3px 15px 3px 15px;
+  }
+
+  #funding-chart{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  
+  .card{
+    display:flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+  }
+
+  .card img{
+      width:27em; 
+      margin: 1em;
+  }
+
+  .card h3{
+    font-size: 34px;
+  }
+  
+  .card1{
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  legend{
+    text-align: center;
+    margin: 2em;
+  }
+  fieldset legend #address{
+    /* margin-left: 10em; */
+    display:flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #address{
+    text-align:center;
+    width: 80%;
+    margin: auto;
+  }
+
+
+
+  input{
+    font-size: 16px;
+  }
+  
+  
+  footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+   }
+}
+
+
+
+
+
+
+
+@media (min-width: 1221px){
+  header{
+    font-size: 1.8em;
+  }
+  
+  /* nav ul li{
+    align-content: space-around;
+    margin: 3em;
+  } */
+  
+  .page-header{
+    display:flex; 
+    align-content: center;
+    justify-content: center;
+  }
+  .page-header h2{
+    font-size: 45px;
+    padding-top: .3em;
+  }
+
+  #intro p{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .deck{
+    margin-top: 0em;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  .deck form{
+    width: 80%;
+    margin: auto;
+    border: 2px solid #f3f3f3;
+    color: red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deck legend{
+    width:100%;
+  }
+  
+  #national-rep .innerdeck{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%
+  }
+
+  #state-rep .innerdeck{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%
+  }
+
+
+#voting-history.deckhist{
+  display: flex;
+  justify-content: flex-start;
+}
+#voting-history.deckhist #histheader{
+  margin-top: 2em;
+  padding-top: 1.5em;
+  width: 100%;
+  background-color: #c9eced;
+  text-align:center;
+  margin-bottom: 2em;
+  height: 3em;
+  font-size: 40px;
+}
+  #address {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  .card{
+    display:flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+  }
+  .card img{
+    width:15em; 
+    margin: 1em;
+}
+
+.card h3{
+  font-size: 24px;
+}
+  
+  .card1{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+
+
+  #repcard *{
+    margin-top: 1.3em;
+    padding: 3px 15px 3px 15px;
+  }
+
+  #funding-chart{
+    margin-top: 3em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+
+#funding{
+  margin-top: 1em;
+  height: 3em;
+  font-size: 40px;
+  background-color: #c9eced;
+
+}
+  
+  form{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  legend{
+    text-align: center;
+    margin: 2em;
+  }
+
+  input{
+    font-size: 16px;
+  }
+   
+  footer{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+  }
+}

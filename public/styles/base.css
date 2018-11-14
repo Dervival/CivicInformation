@@ -1,0 +1,204 @@
+
+html{
+  /* height:100%; */
+
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  color: #AAAAAA;
+  align-content: center;
+  background-color: #F3F3F3;
+}
+/*---------   header    -------------*/
+
+
+header {
+  height: 11em;
+  text-align: center;
+  display: block;
+}
+
+
+/*-------    sub-header    --------*/
+
+
+.page-header h2{
+  text-align: center;
+  padding-top: .7em;
+  color: #AAAAAA;
+}
+
+/*-------     intro     ---------*/
+
+#intro{
+  padding: 1em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  color: #AAAAAA;
+  font-size: 24px;
+}
+
+
+
+#intro p {
+  font-size: 1.3em;
+  opacity: 0.8;
+}
+
+#intro p:hover{
+  opacity:1;
+}
+
+/*----------  Cards       --------------*/
+.card{
+  width:300px;
+}
+
+.card a{
+  color: rgb(142, 142, 142);
+  text-decoration: none;
+  text-align: center;
+}
+
+.deck form fieldset{
+  width: 100%;
+}
+
+#repcard *{
+  background-color: #A2403E;
+}
+
+/*----------  Decks --------*/
+
+
+.deck legend{
+  font-size: 2.6em;
+  margin-bottom: 20px;
+  background-color:#c9eced;
+  color: #AAAAAA;
+  height: 100px;
+  width: 100%;
+}
+
+
+
+/*--------- Card ----------*/
+
+.card1 p a{
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+.card h3{
+  margin: 2px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card p{
+  margin: .3em;
+  font-size: 1.2em;
+}
+
+
+#imgcard{
+  width:20em; 
+  margin: 1em;
+}
+/*--------------------------*/
+
+form legend{
+  background-color: #c9eced;
+  color: #AAAAAA;
+}
+
+form{
+  background-color: white;
+  color: black;
+  margin: 0em 1.5em 1.5em 1.5em;
+  font-size: 20px;
+  padding-bottom: 2em;
+}
+
+
+
+#zip{
+  /* margin: 1em .5em 0em .5em; */
+  font-size: 16px;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+
+#address{
+  font-size: 18px; 
+}
+
+#address label{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#address input{
+  font-size: 20px;
+  border-top: none;
+  border-right:none;
+  border-left:none;
+  outline-offset: none;
+  outline-style: none;
+  overflow: scroll;
+  background-color: white;
+  width: 15em;
+  background-color: #f3f3f3;
+  color: rgb(150, 149, 149);
+  margin-top: .5em;
+}
+
+#address button{
+  background-color: #A2403E;
+  border: 1px solid white;
+  height: 2em;
+  font-size: 20px;
+  color: white;
+  margin-top: 2em;
+  width: 10em;
+}
+
+#address button a:hover{
+  opacity: 1;
+}
+
+legend{
+  font-size: 30px;
+  text-align: center;
+  padding-top: .5em;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+/*-----------  Footer   -----------*/
+
+footer {
+  background-color: #A2403E;
+  width: 100%;
+  height: 6em;
+  text-align: center;
+  align-self: flex-end;
+  position: relative;
+  bottom: 0;
+  margin-top: 3em;
+}
+
+footer ul li a{
+  text-align: center;
+  margin-top: 2em;
+}
+
